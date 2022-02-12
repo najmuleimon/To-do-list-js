@@ -44,6 +44,7 @@ document.getElementById("btn-add").addEventListener("click", function(){
                 for(td of allTd){
                     if(td.classList.contains("addedInput")){
                         td.style.color = "green"
+                        td.innerText = inputValue + "(Task Complete)"
                     }
                 }
             })
